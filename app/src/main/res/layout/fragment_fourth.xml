@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fourth_fragment_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listViewcart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cartsummary"
+        android:dividerHeight="6.0sp"
+        android:visibility="gone"></ListView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cartsummary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="false">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/panelAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/cartlinearLayoutBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:enabled="true"
+                    android:id="@+id/cartlocation"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.71"
+                    android:background="@drawable/location_background"
+                    android:drawableTop="@drawable/ic_home_black_24dp"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cartlinearLayoutBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cartotaltitemcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="17sp"
+                    tools:text="5 ITEMS" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cartlinearLayoutBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/carttotalprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:textColor="@color/colorRed"
+                    android:textSize="17sp"
+                    tools:text="350 Nfa" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cartlinearLayoutBar4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/cartorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/green_button_rounded_background"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="ORDER >>" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:foregroundGravity="bottom"
+        android:id="@+id/cartemptyimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/emptycart"
+        android:text="Nothing has been added to cart."
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/cartempty" />
+
+    <TextView
+        android:id="@+id/cartempty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nothing has been added to cart."
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:elevation="10dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/idCardView0"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="4dp">
+
+        <ImageView
+            android:id="@+id/showitemimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/piz0" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/showitemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Food Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showitemdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Description"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="normal|italic" />
+
+
+        <LinearLayout
+            android:id="@+id/showbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+
+            <TextView
+                android:id="@+id/showitemprice"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:gravity="left|center_vertical"
+                android:text="Cost"
+                android:textColor="@color/colorRed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_weight="52.66" />
+
+            <Button
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/showadditemtocart"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="33.73"
+                android:background="@drawable/button_rounded_background"
+                android:elevation="10dp"
+                android:text="Add"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

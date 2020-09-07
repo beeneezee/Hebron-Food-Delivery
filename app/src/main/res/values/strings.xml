@@ -1,0 +1,486 @@
+<resources>
+    <string name="app_name">ሄብሮን</string>
+    <string name="app_namet">ሄብሮን</string>
+    <string name="app_namee">Hebron</string>
+    <string name="hebron">Hebron</string>
+    <string name="to">ናብ</string>
+
+    <array name="count">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+    </array>
+
+    <string name="descxt">ናይ ስዕረት</string>
+    <string name="descxe">N.Fasting</string>
+
+    <string name="descrt">ናይ ጾም</string>
+    <string name="descre">Fasting</string>
+
+
+    <string name="alcholt">ኣልክሆል</string>
+    <string name="alchole">Alcholic</string>
+
+
+    <string name="softt">ለስላሳ</string>
+    <string name="softe">Soft Dr.</string>
+
+    <string-array name="pizzanamest">
+        <item>ሄብሮን ፒሳ #1</item>
+        <item>ሄብሮን ፒሳ #2</item>
+        <item>ሄብሮን ፒሳ #3</item>
+        <item>ሄብሮን ፒሳ #4</item>
+        <item>ሄብሮን ፒሳ #5</item>
+        <item>ሄብሮን ፒሳ #6</item>
+        <item>ሄብሮን ፒሳ #7</item>
+        <item>ሄብሮን ፒሳ #8</item>
+        <item>ሄብሮን ፒሳ #9</item>
+    </string-array>
+
+    <string-array name="pizzaextrat">
+        <item>ሄብሮን ፒሳ #1</item>
+        <item>ሄብሮን ፒሳ #2</item>
+        <item>ሄብሮን ፒሳ #3</item>
+        <item>ሄብሮን ፒሳ #4</item>
+        <item>ሄብሮን ፒሳ #5</item>
+        <item>ሄብሮን ፒሳ #6</item>
+        <item>ሄብሮን ፒሳ #7</item>
+        <item>ሄብሮን ፒሳ #8</item>
+        <item>ሄብሮን ፒሳ #9</item>
+    </string-array>
+
+    <string-array name="pizzanamese">
+        <item>Hebron Pizza #1</item>
+        <item>Hebron Pizza #2</item>
+        <item>Hebron Pizza #3</item>
+        <item>Hebron Pizza #4</item>
+        <item>Hebron Pizza #5</item>
+        <item>Hebron Pizza #6</item>
+        <item>Hebron Pizza #7</item>
+        <item>Hebron Pizza #8</item>
+        <item>Hebron Pizza #9</item>
+    </string-array>
+    <string-array name="pizzaextrae">
+        <item>Hebron Pizza #1</item>
+        <item>Hebron Pizza #2</item>
+        <item>Hebron Pizza #3</item>
+        <item>Hebron Pizza #4</item>
+        <item>Hebron Pizza #5</item>
+        <item>Hebron Pizza #6</item>
+        <item>Hebron Pizza #7</item>
+        <item>Hebron Pizza #8</item>
+        <item>Hebron Pizza #9</item>
+    </string-array>
+
+    <string-array name="burgernamest">
+        <item>ሄብሮን በርገር #1</item>
+        <item>ሄብሮን በርገር #2</item>
+        <item>ሄብሮን በርገር #3</item>
+        <item>ሄብሮን በርገር #4</item>
+        <item>ሄብሮን በርገር #5</item>
+        <item>ሄብሮን በርገር #6</item>
+        <item>ሄብሮን በርገር #7</item>
+        <item>ሄብሮን በርገር #8</item>
+        <item>ሄብሮን በርገር #9</item>
+    </string-array>
+
+    <string-array name="burgerextrat">
+        <item>ሄብሮን በርገር #1</item>
+        <item>ሄብሮን በርገር #2</item>
+        <item>ሄብሮን በርገር #3</item>
+        <item>ሄብሮን በርገር #4</item>
+        <item>ሄብሮን በርገር #5</item>
+        <item>ሄብሮን በርገር #6</item>
+        <item>ሄብሮን በርገር #7</item>
+        <item>ሄብሮን በርገር #8</item>
+        <item>ሄብሮን በርገር #9</item>
+    </string-array>
+
+    <string-array name="burgernamese">
+        <item>Hebron Burger #1</item>
+        <item>Hebron Burger #2</item>
+        <item>Hebron Burger #3</item>
+        <item>Hebron Burger #4</item>
+        <item>Hebron Burger #5</item>
+        <item>Hebron Burger #6</item>
+        <item>Hebron Burger #7</item>
+        <item>Hebron Burger #8</item>
+        <item>Hebron Burger #9</item>
+    </string-array>
+
+
+    <string-array name="burgerextrae">
+        <item>Hebron Burger #1</item>
+        <item>Hebron Burger #2</item>
+        <item>Hebron Burger #3</item>
+        <item>Hebron Burger #4</item>
+        <item>Hebron Burger #5</item>
+        <item>Hebron Burger #6</item>
+        <item>Hebron Burger #7</item>
+        <item>Hebron Burger #8</item>
+        <item>Hebron Burger #9</item>
+    </string-array>
+
+    <string-array name="drinknamest">
+        <item>ሄብሮን መስተ #1</item>
+        <item>ሄብሮን መስተ #2</item>
+        <item>ሄብሮን መስተ #3</item>
+        <item>ሄብሮን መስተ #4</item>
+        <item>ሄብሮን መስተ #5</item>
+        <item>ሄብሮን መስተ #6</item>
+        <item>ሄብሮን መስተ #7</item>
+        <item>ሄብሮን መስተ #8</item>
+        <item>ሄብሮን መስተ #9</item>
+    </string-array>
+
+
+    <string-array name="drinkextrat">
+        <item>ሄብሮን መስተ #1</item>
+        <item>ሄብሮን መስተ #2</item>
+        <item>ሄብሮን መስተ #3</item>
+        <item>ሄብሮን መስተ #4</item>
+        <item>ሄብሮን መስተ #5</item>
+        <item>ሄብሮን መስተ #6</item>
+        <item>ሄብሮን መስተ #7</item>
+        <item>ሄብሮን መስተ #8</item>
+        <item>ሄብሮን መስተ #9</item>
+    </string-array>
+
+
+    <string-array name="drinknamese">
+        <item>Hebron Drink #1</item>
+        <item>Hebron Drink #2</item>
+        <item>Hebron Drink #3</item>
+        <item>Hebron Drink #4</item>
+        <item>Hebron Drink #5</item>
+        <item>Hebron Drink #6</item>
+        <item>Hebron Drink #7</item>
+        <item>Hebron Drink #8</item>
+        <item>Hebron Drink #9</item>
+    </string-array>
+
+
+    <string-array name="drinkextrae">
+        <item>Hebron Drink #1</item>
+        <item>Hebron Drink #2</item>
+        <item>Hebron Drink #3</item>
+        <item>Hebron Drink #4</item>
+        <item>Hebron Drink #5</item>
+        <item>Hebron Drink #6</item>
+        <item>Hebron Drink #7</item>
+        <item>Hebron Drink #8</item>
+        <item>Hebron Drink #9</item>
+    </string-array>
+
+
+    <string-array name="pizzadescriptiont">
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descrt</item>
+        <item>@string/descxt</item>
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descrt</item>
+    </string-array>
+
+    <string-array name="pizzadescriptione">
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descre</item>
+        <item>@string/descxe</item>
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descre</item>
+    </string-array>
+
+
+    <string-array name="burgerdescriptiont">
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descrt</item>
+        <item>@string/descxt</item>
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descxt</item>
+        <item>@string/descrt</item>
+        <item>@string/descrt</item>
+    </string-array>
+
+    <string-array name="burgerdescriptione">
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descre</item>
+        <item>@string/descxe</item>
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descxe</item>
+        <item>@string/descre</item>
+        <item>@string/descre</item>
+    </string-array>
+
+    <string-array name="drinkdescriptiont">
+        <item>@string/softt</item>
+        <item>@string/softt</item>
+        <item>@string/alcholt</item>
+        <item>@string/softt</item>
+        <item>@string/alcholt</item>
+        <item>@string/alcholt</item>
+        <item>@string/softt</item>
+        <item>@string/alcholt</item>
+        <item>@string/softt</item>
+    </string-array>
+
+    <string-array name="drinkdescriptione">
+        <item>@string/softe</item>
+        <item>@string/softe</item>
+        <item>@string/alchole</item>
+        <item>@string/softe</item>
+        <item>@string/alchole</item>
+        <item>@string/alchole</item>
+        <item>@string/softe</item>
+        <item>@string/alchole</item>
+        <item>@string/softe</item>
+    </string-array>
+
+    <string-array name="pizzaprice">
+        <item>140</item>
+        <item>168</item>
+        <item>210</item>
+        <item>155</item>
+        <item>200</item>
+        <item>101</item>
+        <item>235</item>
+        <item>500</item>
+        <item>199</item>
+    </string-array>
+
+    <string-array name="burgerprice">
+        <item>33</item>
+        <item>28</item>
+        <item>46</item>
+        <item>61</item>
+        <item>50</item>
+        <item>47</item>
+        <item>33</item>
+        <item>15</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="drinkprice">
+        <item>20</item>
+        <item>25</item>
+        <item>10</item>
+        <item>12</item>
+        <item>40</item>
+        <item>39</item>
+        <item>100</item>
+        <item>72</item>
+        <item>54</item>
+    </string-array>
+
+    <string-array name="pizzaid">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string-array name="burgerid">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+
+    <string-array name="drinkid">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string-array name="lang_list_titles">
+        <item>English</item>
+        <item>ትግርኛ</item>
+    </string-array>
+    <string-array name="lang_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string-array name="theme_list_titlese">
+        <item>Hebron</item>
+        <item>Orange</item>
+    </string-array>
+    <string-array name="theme_list_titlest">
+        <item>ሄብሮን</item>
+        <item>ኣራንሾኒ</item>
+    </string-array>
+    <string-array name="theme_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pizzat">ፒሳ</string>
+    <string name="pizzae">PIZZAS</string>
+
+
+    <string name="burgert">በርገር</string>
+    <string name="burgere">BURGERS</string>
+
+
+    <string name="drinkt">መስተ</string>
+    <string name="drinke">DRINKS</string>
+
+
+    <string name="mycartt">ጠለባት</string>
+    <string name="mycarte">MY CART</string>
+
+
+    <string name="nfat">ናቕፋ</string>
+    <string name="nfae">Nfa</string>
+
+    <string name="qtyt">ብዝሒ፥</string>
+    <string name="qtye">Qty:</string>
+
+    <string name="addtocartt">ናብ ጠለባት ሓውስ</string>
+    <string name="addtocarte">ADD TO CART</string>
+
+
+    <string name="updatecartt">ቁጽሪ ጠለብ ቀይር</string>
+    <string name="updatecarte">CHANGE QUANTITY</string>
+
+
+    <string name="numberoft">ቁጽሪ</string>
+    <string name="numberofe">Number of</string>
+
+
+    <string name="changedtot">ተቐይሩ ኣሎ።</string>
+    <string name="changedtoe">changed to</string>
+
+
+    <string name="addedtocartt">ናብ ጠለባት ተወሲኹ ኣሎ።</string>
+    <string name="addedtocarte">added to cart.</string>
+
+
+    <string name="addt">ጥለብ</string>
+    <string name="adde">ADD</string>
+
+
+    <string name="itemst">ጠለባት</string>
+    <string name="itemse">ITEMS</string>
+
+
+    <string name="itemt">ጠለብ</string>
+    <string name="iteme">ITEM</string>
+
+    <string name="ordert">ኣዝዝ >></string>
+    <string name="ordere">ORDER >></string>
+
+    <string name="langt">ቋንቋ</string>
+    <string name="lange">Display Language</string>
+
+
+    <string name="themet">ትርኢት</string>
+    <string name="themee">Theme</string>
+
+    <string name="vibrationt">ነዝነዝታት</string>
+    <string name="vibratione">Vibrations</string>
+
+    <string name="vibrationsummuryt">ንምርግጋጽ ጥራይ</string>
+    <string name="vibrationsummurye">Vibrate on actions</string>
+
+    <string name="soundsummuryt">ነንምርግጋጽ ጥራይ</string>
+    <string name="soundsummurye">Sound  on actions</string>
+
+
+    <string name="generalt">ሓፈሻዊ</string>
+    <string name="generale">General</string>
+
+
+    <string name="helpt">ሓገዝ</string>
+    <string name="helpe">Help</string>
+
+    <string name="settingst">መቓን</string>
+    <string name="settingse">Settings</string>
+
+
+    <string name="infot">ሓበሬታ</string>
+    <string name="infoe">Developers</string>
+
+
+    <string name="feedbackt">ግብረ መልስታት</string>
+    <string name="feedbacke">UI Feedback</string>
+
+
+    <string name="soundst">ድምጽታት</string>
+    <string name="soundse">UI Sounds</string>
+
+
+    <string name="cancelt">ኣይፋል</string>
+    <string name="cancele">CANCEL</string>
+
+
+    <string name="okt">እወ</string>
+    <string name="oke">OK</string>
+
+    <string name="removedfromcartt">ካብ ዝርዝር ጠለባት ተኣልዩ ኣሎ።</string>
+    <string name="removedfromcarte">Removed from cart.</string>
+
+
+    <string name="pleasewaitt">ቀሪብና ...</string>
+    <string name="pleasewaite">Please Wait ...</string>
+
+
+    <string name="sendingordert">ትእዛዝ ይስደድ ኣሎ</string>
+    <string name="sendingordere">Sending Order</string>
+
+    <string name="passwordt">ምስጢረ-ቃል</string>
+    <string name="passworde">Password</string>
+
+
+    <string name="areyousureordert">ትእዛዝ ንምስዳድ፥ ምስጢረ-ቃልኩም ኣእትዉ።</string>
+    <string name="areyousureordere">Insert your password to order.</string>
+
+
+    <string name="removellt">ንኩሉ</string>
+    <string name="removell2t">ክንገድፎ?</string>
+    <string name="removelle">Remove ALL</string>
+
+
+    <string name="nothingselectedt">ይቕረታ ዝርዝር ጠለባትኩም ጥርሑ ኢዩ ዘሎ።</string>
+    <string name="nothingselectede">Oops! sorry. Your cart is empty.</string>
+
+
+    <string name="setlocationt">ብኽብረትኩም ኣድራሻኹም ገለመለ።</string>
+    <string name="setlocatione">Please set your location.</string>
+
+
+    <string name="thankst">ትእዛዝኩም ተሰሚዑ ኣሎ። ጠለብኩም ኣብ ዝሓጸረ ግዜ ሒዝናልኩም ክሳብ ንመጽእ፣ ብሰላም ጽንሑ። ኣገልጉሎትና ብጥቃምኩም ነመስግን።</string>
+    <string name="thankse">Your order has been sent. Please sitback and wait for your box to arrive, Thanks for using our delivery service.</string>
+    <string name="title_activity_item_details">ItemDetailsActivity</string>
+
+</resources>

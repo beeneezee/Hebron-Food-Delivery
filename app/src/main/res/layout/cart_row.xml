@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:elevation="10dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/idCardView0"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="4dp">
+
+        <ImageView
+            android:id="@+id/mycartitemimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/dri0" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mycartitemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Food Name"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/mycartitemdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Description"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/mycartitemtypeprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Cost"
+                android:textAlignment="textEnd"
+                android:textColor="#f00"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mycartbottom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+
+            <TextView
+                android:text="50"
+                android:textAlignment="textStart"
+                android:id="@+id/mycartitemcounter"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:textColor="#f00"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/mycartremoveitem"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="15dp"
+                android:src="@android:drawable/ic_delete"
+                android:text="Remove"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#024031</color>
+    <color name="colorPrimaryDark">#033e30</color>
+    <color name="colorAccent">#024031</color>
+
+    <color name="colorPrimaryO">#f80</color>
+    <color name="colorPrimaryDarkO">#f60</color>
+    <color name="colorAccentO">#f80</color>
+
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#f00</color>
+    <color name="colorGreen">#018401</color>
+
+
+    <color name="colorBackground">#F8F8F8</color>
+    <color name="colorNavAccentSelected">#011d16</color>
+    <color name="colorNavAccentSelectedO">#f80</color>
+    <color name="colorNavAccentUnselected">#727272</color>
+
+    <color name="defaultTextColor">#FFFFFF</color>
+    <color name="errorColor">#D50000</color>
+    <color name="infoColor">#F40</color>
+    <color name="successColor">#388E3C</color>
+    <color name="warningColor">#FFA900</color>
+    <color name="normalColor">#353A3E</color>
+
+
+    <color name="bluetext">#6cbaf9</color>
+</resources>

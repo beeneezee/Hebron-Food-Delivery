@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="sounds"
+        android:title="@string/soundse" />
+
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="vibrations"
+        android:title="@string/vibratione" />
+
+</PreferenceScreen>
